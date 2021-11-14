@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music.calm.vn</title>
+    <link rel="icon" href="./images/music-notes.png" type="image/gif" sizes="16x16">
+
+    
+    <!-------CSS------->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-------Fonts-------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="hero">
+        <div class="claw-down-bar"></div>
+        <h1 class="heading">Now Playing</h1>
+        <div class="cd-wrapper">
+            
+        </div>
+        <div class="progress">
+            <input id="progress-input" type="range" value="0" step="1" min="0" max="100">
+            <div class="time-info">
+                <span class="current-time">0:00</span>
+                <span class="time-total"></span>
+            </div>
+        </div>
+        <div class="control">
+            <span class="random-btn">
+                <i class="fas fa-random"></i>
+            </span>
+            <span class="prev-btn"><i class="fas fa-step-backward"></i></span>
+            <span class="play-btn">
+                <i class="fas fa-play"></i>
+            </span>
+            <span class="next-btn"><i class="fas fa-step-forward"></i></span>
+            <span class="list-btn">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/lounge-music-playlist.png"/>
+            </span>
+        </div>
+        <div class="music-list">
+            <header class="title">Music list</header>
+            <div class="item-container">
+            </div>
+            <div class="playing-icon hide">
+                <div class="short"></div>
+                <div class="medium"></div>
+                <div class="tall"></div>
+                <div class="medium"></div>
+                <div class="short"></div>
+            </div>
+        </div>
+        <audio id="audio" src=""></audio>
+    </div>
+
+    <!-------Javascript------->
+    <script src="./main.js"></script>
+</body>
+</html>
