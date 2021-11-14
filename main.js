@@ -32,28 +32,28 @@ const app = {
             image: './music_img/AllFallsDown.webp'
         },
         {
-            name: 'Vẽ',
-            singer: 'Trúc Nhân',
-            path: './songs/Vẽ.mp3',
-            image: './music_img/Vẽ.png'
+            name: 'Âm thầm bên em',
+            singer: 'Sơn Tùng M-TP',
+            path: './songs/Am tham ben em.mp3',
+            image: './music_img/AmThamBenEm.webp'
         },
         {
-            name: 'Một đêm say',
-            singer: 'Thịnh Suy',
-            path: './songs/Một đêm say.mp3',
-            image: './music_img/Một đêm say.png'
+            name: 'So Far Away Acoustic (Cover)',
+            singer: 'Adam Christopher',
+            path: './songs/So Far Away Acoustic (Cover).mp3',
+            image: './music_img/SoFarAway.webp'
         },
         {
-            name: 'XTC (Xích thêm chút)',
-            singer: 'RPT',
-            path: './songs/Xích thêm chút (XTC).mp3',
-            image: './music_img/XTC.jpg'
+            name: 'Comethru',
+            singer: 'Jeremy Zucker feat. Bea Miller',
+            path: './songs/Comethru.mp3',
+            image: './music_img/ComeThru.webp'
         },
         {
-            name: 'Lemon',
-            singer: 'Kenshi Yonezu',
-            path: './songs/Lemon.mp3',
-            image: './music_img/Lemon.jpg'
+            name: 'Darkside',
+            singer: 'Alan Walker ft. Au/Ra and Tomine Harket',
+            path: './songs/Darkside.mp3',
+            image: './music_img/DarkSide.webp'
         },
         {
             name: 'Inferno',
@@ -68,34 +68,22 @@ const app = {
             image: './music_img/How you like that.jpg'
         },
         {
-            name: 'Gác lại âu lo',
-            singer: 'Da Lab',
-            path: './songs/Gác lại âu lo.mp3',
-            image: './music_img/Gác lại âu lo.jpg'
+            name: 'Blue',
+            singer: 'Big Bang',
+            path: './songs/Blue.mp3',
+            image: './music_img/Blue.webp'
         },
         {
-            name: 'Thức giấc',
-            singer: 'Da Lab',
-            path: './songs/Thức giấc.mp3',
-            image: './music_img/Thức giấc.png'
+            name: 'At My Worst (Cover)',
+            singer: 'Harryan',
+            path: './songs/At My Worst (Cover).mp3',
+            image: './music_img/AtMyWorst.webp'
         },
         {
-            name: 'Lạc',
-            singer: 'Rythmastic',
-            path: './songs/Lạc.mp3',
-            image: './music_img/Lạc.png'
-        },
-        {
-            name: 'Playah',
-            singer: 'Soobin Hoàng Sơn',
-            path: './songs/Playah.mp3',
-            image: './music_img/Playah.jpg'
-        },
-        {
-            name: 'Big city boi',
-            singer: 'Binz',
-            path: './songs/Big City Boy.mp3',
-            image: './music_img/Big city boi.jpg'
+            name: '2002',
+            singer: 'Anne-Marie',
+            path: './songs/2002.mp3',
+            image: './music_img/2002.webp'
         },
     ],
     loadSongList() {
