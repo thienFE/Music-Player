@@ -28,6 +28,10 @@ ul, p {
     color: #494949;
 }
 
+.message {
+    display: none;
+}
+
 .cd-wrapper.hide {
     display: none;
 }
@@ -309,6 +313,20 @@ ul, p {
     }
 }
 
+
+@media (min-width: 541px) {
+    .hero {
+        display: none;
+    }
+
+    .message {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        color: #494949;
+    }
+}
 
 
 
