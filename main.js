@@ -2,7 +2,7 @@ const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
 const hero = $('.hero')
-const cdWrapper = $('.cd-wrapper')
+const cdWrapper = $('.cd-wrapper') 
 const audio = $('#audio')
 const playBtn = $('.play-btn')
 const progress = $('#progress-input')
